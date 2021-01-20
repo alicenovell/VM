@@ -1,0 +1,1073 @@
+@charset "utf-8";
+
+/*    
+    --fons:#f6f5eaff;
+    --boto sense clicar: #9c9a81ff;
+    --boto clicat: #aeac96ff;
+    --text: #252525ff;
+*/
+
+*{  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a,p,h1,h2,h3,button,li{
+    Font-family: 'Playfair Display',arial;
+        
+/*
+        Calisto MT, Bookman Old Style, Bookman, Goudy Old Style, Garamond, Hoefler Text, Bitstream Charter, Georgia, serif
+*/
+}
+/*p{font-family: "Poppins",arial}*/
+h1{
+    font-size: 48px; 
+    font-weight:600;
+}
+
+a {text-decoration: none}
+
+h1,.h1,h2,.h2{
+    color: #252525ff;
+}
+h3{
+    font-size: 42px;
+    letter-spacing: 1px;
+    font-weight: 500
+}
+h4{
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-style: italic
+
+}
+p{font-size: 18px}
+
+
+
+.caixa-logo{
+    flex: 0 0 430px;
+    background-color: transparent;
+    height: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 28px; 
+    letter-spacing:1px;
+    margin-left: 35px
+}
+
+.caixa-benvinguda{
+    display:flex;
+    text-align: center;
+    align-items: center;
+    height:50vh;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 30px; 
+    letter-spacing:2px; 
+    
+}
+.caixa-benvinguda h2{
+    height:100px;
+    color:#f6f5eaff;
+    font-weight: bolder;
+    font-size:60px;
+    text-shadow: 0 0 7px #524e47aa
+
+
+}
+.caixa-benvinguda button{
+    margin-top: 40px;
+}
+
+.barra-info{
+    background-color: transparent;
+    display:flex;
+    height:5vh;
+    align-items: flex-start;
+    text-decoration: none;
+    justify-content: flex-end;
+}
+.caixa-idioma{
+    background-color: transparent;
+    display:flex;
+    height:40px;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: column;
+    width: 120px;
+    margin-right: 95px;
+    margin-top: 25px;
+    cursor:pointer;
+    white-space: nowrap;
+}
+
+.caixa-idioma:hover{
+    height:170px;
+    z-index: 1000;
+    color: #212529;
+    list-style: none;
+    background-color: #F3F1E2dd;
+    display:flex
+}
+.boto-idioma{
+    width:inherit;
+    height:40px;
+    outline:none;
+
+}
+.boto-amb-icona{
+    display:flex;
+    align-items: center;
+}
+.idioma{
+    margin-left: 8px;
+    margin-right: 8px
+
+}
+.caixa-idioma button,.caixa-idioma a{
+    background-color: transparent;
+    text-decoration: none;
+    cursor:pointer;
+    color: #252525;
+    border:none;
+    font-weight:normal;
+    font-size:18px;
+    height: 40px;
+}
+
+
+.idioma-links a:hover{
+    font-weight: 600;
+}
+.caixa-opcions-idioma{
+    display:none;
+    height: 130px;
+    justify-content: center;
+    align-content: flex-end;
+}
+.caixa-idioma:hover .caixa-opcions-idioma{
+    display:flex;
+    width: inherit;
+}
+.caixa-opcions-idioma-actiu{
+    display:flex;
+    width: inherit;
+    
+}
+
+.idioma-links{
+    display:flex;  
+    align-items: center;
+    flex-direction: column
+}
+
+.idioma-links li{
+    list-style: none;
+    font-weight:normal;
+    line-height: 25px;
+
+}
+
+.idioma-links a{
+    color:#252525ff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    background-color: transparent;
+    height: 20vh; 
+}
+.nav-links{
+    display:flex;
+    width:800px;
+    justify-content: space-evenly;
+    background-color: transparent;
+    margin-left: auto;
+    align-items: center
+}
+.nav-links a{
+    color:#252525ff;
+    text-decoration: none;
+    font-size:22px;
+    font-weight: 500
+    
+}
+.nav-links li{
+    list-style: none;
+    
+}
+
+.boto-reserva{
+    background-color: #9c9a81ff;
+    border: none;
+    margin-right: 30px;
+    height:60px;
+    width: 140px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    transition-duration: 0.4s;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor:pointer;
+    font-size:24px;
+    outline:none;
+
+}
+.boto-reserva a{
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    cursor:pointer;
+    font-size:24px;
+    outline:none;
+}
+.boto-reserva:hover {
+  background-color: #aeac96ff;
+}
+
+.burger{
+    display:none;
+    cursor:pointer;
+}
+
+.burger div{
+    width:34px;
+    height:4px;
+    margin:7px;
+    content: " ";
+    display: block;
+    border-top: 2px solid #252525ff;
+    border-bottom: 2px solid #252525ff;
+    border-radius: 30%;
+    transition: all 0.4s ease;
+
+}
+.toggle .line1{
+    transform: rotate(-45deg) translate(-9px,7px);
+}
+.toggle .line2{
+    opacity:0;
+}
+.toggle .line3{
+    transform: rotate(45deg)translate(-9px,-7px);
+}
+
+.boto-coneix{
+    background-color: #9c9a81ff;
+    border: none;
+    height:90px;
+    width: 270px;
+    display: block;
+    text-align: center;
+    color: white;
+    transition-duration: 0.4s;
+    font-weight: 600;
+    cursor:pointer;
+    font-size: 30px;
+    letter-spacing: 1px;
+    outline:none;
+
+}
+.boto-coneix:hover {
+  background-color: #aeac96ff;
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity:0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity:1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes navButtonFade{
+    from{
+        opacity:0;
+        
+    }
+    to{
+        opacity:1;
+    }
+}
+
+/*PEU DE PAGINA*/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 130px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    position: absolute;
+    bottom:0;
+    width: 100%
+        
+}
+.info-peu{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px
+}
+.info-peu p{
+    font-size: 22px;
+    font-weight: 600
+}
+.info-peu-lloc{
+    text-align: right
+}
+.copyright{
+    align-self: center
+}
+
+
+/*PAGINES*/
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center
+}
+.pagina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    align-self: center
+}
+
+.titol-pagina{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.container-preus{
+    display: flex;
+    height:25vw;
+    max-height: 400px;
+    width:75vw;
+    align-items:center;
+    justify-content: space-evenly;
+    margin-bottom: 15px
+    
+}
+.caixa-preu{
+    display: flex;
+    flex-direction: column;
+    height:25vw;
+    width:25vw;
+    max-height: 400px;
+    max-width: 400px;
+    background-color: #9c9a81ff;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.titol-preu{
+    font-size: 2vw;
+    margin-top: 2vw;
+    margin-bottom:0.3vw
+}
+.subtitol-preu{
+    font-style: italic;
+    font-size: 1.7vw;
+}
+.valor-preu{
+    font-size: 5vw;
+    font-style: italic
+}
+.consultar{
+    font-size:3.8vw; 
+    margin-bottom: 5%
+}
+.textpreu{
+    display: flex;
+    align-items:flex-end;
+    font-style: italic;
+    margin-top: auto;
+    margin-bottom: 17%
+}
+.mesos{
+    margin-bottom: 0.5vw
+}
+.subtitol-pagina{
+    margin-bottom: 40px;
+    margin-top: 70px
+}
+.llista-serveis{
+    display:flex;
+    min-height:160px;
+    width:100%;
+    max-width: 1385px;
+}
+.item-llista-serveis{
+    display:flex;
+    align-items: center;
+    margin-left: 40px
+}
+.mitja-llista-serveis{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+    width:50%;
+}
+.titol-adicional{
+    margin-left: 10px;
+    font-size: 20px
+}
+.descripcio{
+    font-size: 18px;
+    align-self: flex-start;
+}
+.preu-adicional{
+    font-style: italic;
+    font-size:26px
+}
+.indicador-preu-per{
+    font-style: italic;
+    margin-left: 3px
+}
+.contenidor-preu-adicional{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 0%;
+    justify-content: center;
+    min-width: 12vw;
+}
+
+.llista-condicions{
+    width: auto;
+    text-align: left;
+    margin-right: auto  
+}
+.llista-condicions li{
+    margin-bottom: 7px;
+    margin-left: 30px
+}
+
+.paragraf{
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+    margin-right: 30px;
+    margin-left: 30px
+
+}
+
+.intro{
+    font-size: 28px;
+    font-style: oblique;
+    text-align: center;
+}
+.contenidor-info-fotos{
+    margin-top:40px
+}
+.caixa-info-fotos{
+    justify-content: center;
+    background: #f6f5eadd;
+    position: relative;
+}
+.caixa-text-foto{
+    display:flex;
+    justify-content: space-between;
+}
+.imatge-overlay{
+    position: relative;
+    object-fit: cover;
+    display: block
+}
+.text-overlay{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    color: #252525ff
+}
+.text-overlay:hover {
+    opacity: 1
+}
+.caixa-info-fotos:hover .icona-mes{
+    opacity: 0
+}
+.caixa-text{
+    width: 60%
+}
+
+.caixa-foto{
+    width:40%;
+    background-color: darkmagenta
+}
+
+.icona-mes{
+    position: absolute;
+    bottom:0;
+    right:3%;
+    height:2vw;
+    opacity:0.6;
+    transition: opacity 1s
+
+    
+}
+.mitja-llista{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width:50%;
+    margin-left: 50px
+}
+
+.item-adicional{
+    font-size: 22px;
+    margin-left:25px;
+}
+.imatge-planol{
+    margin-left: auto 
+}
+
+.caixa-fotos{
+    display: flex;
+    align-items: center
+}
+
+.slider {
+    text-align: center;
+    overflow: hidden;
+    position:relative;
+    display:flex;
+    align-items: center;
+    max-height: 70vh;
+    max-width: 70vw;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+    max-height: 70vh;
+    max-width: 70vw;
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+    
+}
+.slides::-webkit-scrollbar {
+  display:none;
+}
+.slides::-webkit-scrollbar-thumb {
+  display:none
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 70vw;
+    height: 70vh;
+    display: flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    max-height: 70vh;
+    max-width: 70vw;
+}
+.imatge-carousel{
+    object-fit: contain;
+    max-height: 70vh;
+    max-width: 70vw;
+}
+
+.boto-navegacio{
+    background-color: transparent;
+    border: none;
+    width: 60px;
+    height: 80px;
+    cursor:pointer;
+    outline:none;
+}
+.lliscar{
+        display:block;
+    }
+.lliscar div{
+    width:34px;
+    height:4px;
+    margin:7px;
+    content: " ";
+    display: block;
+    border-top: 2px solid #252525ff;
+    border-bottom: 2px solid #252525ff;
+    border-radius: 30%;
+}
+.linea1{
+    transform: rotate(-50deg) translate(4px,-5px);
+}
+.linea2{
+    transform: rotate(50deg) translate(4px,5px);
+}
+.linea3{
+    transform: rotate(-50deg) translate(-14px,10px);
+}
+.linea4{
+    transform: rotate(50deg) translate(-14px,-10px);
+}
+
+
+.caixa-ubi{
+    display: flex;
+    flex-direction: column;
+    height:300px;
+    width:670px;
+    max-height: 300px;
+    max-width: 700px;
+    justify-content: space-around;
+    margin-bottom: 3rem
+}
+
+.icona-mapa{
+    width: 180px;
+    margin-left: 40px
+}
+.llista-ubi{
+    display:flex;
+    height:auto;
+    width: 70vw;
+}
+.item-llista-ubi{
+    display:flex;
+    margin-left: 40px;
+    margin-bottom: 8px;
+    align-items: center
+}
+.mitja-llista-ubi{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: inherit;
+    width:50%;
+}
+.info-ubi{
+    font-size: 1.8rem;
+    margin-top: 0.8rem;
+    margin-bottom:0.8rem
+}
+.titol-indicacions{
+    align-self: center
+}
+.subtitol-indicacions{
+    align-self: center;
+    margin-bottom: 20px
+}
+
+.vm-google-maps iframe {
+    margin-top: 4rem;
+    width: 70vw !important;
+    height: 40vw !important;
+}
+
+.container-act{
+    display:flex;
+    width: inherit;
+    margin-bottom: 6%;
+    margin-top: 2%
+}
+.caixa-act{
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-between
+
+}
+.desc-activitat{
+    margin: 30px 0 30px 0
+}
+.imatge-act{
+    height:22vw
+}
+.titol-act{
+    font-size: 42px;
+    text-align: center;
+}
+
+
+/*FORM*/
+form{
+    margin-top:50px;
+    transition: all 4s ease-in-out
+}
+.contact-form form{
+    display: flex;
+    align-items: center;
+    flex-direction: column
+}
+.form-control{
+    width: 500px;
+    background-color: transparent;
+    border:none;
+    outline:none;
+    border-bottom:1px solid #252525ff;
+    color:#252525ff;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Playfair Display',arial
+}
+.dates{
+    display: flex;
+    justify-content: space-between;
+    width: 500px
+}
+.data input{
+    width:230px
+}
+input{
+    height:40px
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-clear-button {
+  display: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#252525ff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#252525ff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:#252525ff;
+}
+.submit:hover {
+  background-color: #aeac96ff;
+}
+form .submit{
+    background-color: #9c9a81ff;
+    border: none;
+    align-self: center;
+    height:60px;
+    width: 140px;
+    display: block;
+    text-align: center;
+    color: white;
+    font-style: normal;
+    transition-duration: 0.4s;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor:pointer;
+    font-size:24px;
+    outline:none;
+}
+textarea{
+    resize:vertical
+}
+.caixa-botons-form{
+    display: flex;
+}
+.caixa-botons-form input{
+    margin:0 15px
+}
+
+.caixa-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    height:120px;
+}
+.icona-cont{
+    margin-left: 40px;
+    margin-right: 30px
+
+}
+
+.tornar{
+    text-decoration: none;
+    color: #252525
+}
+.boto-tornar{
+    width:100px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top:80px;
+    cursor: pointer
+}
+
+
+@media screen and (max-width:1700px){
+    .caixa-preu{
+    height:22vw;
+    width:22vw;
+    }
+}
+
+@media screen and (max-width:1060px){
+    body{
+        overflow-x: hidden;
+        height: 100%;
+        position:relative;
+        padding-bottom: 250px
+       
+    }
+    .caixa-benvinguda{
+    display:none;
+    }
+    .nav-links{
+        width:100%;
+        position:absolute;
+        right:0px;
+        top:20vh;
+        height:80vh;
+        background-color: #f6f5eaff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        z-index: 1000;
+               transition: all 0.6s ease-in;
+
+
+        
+    }
+    .nav{
+        background-image: linear-gradient(to right, #f6f5eaff, #F0EAD6);
+        background-position: 100vw 0%;        
+        background-size: 10000%;
+        background-repeat: no-repeat;
+        transition: background-position 0.6s ease-in
+
+    }
+    .nav-active{
+        background-image: linear-gradient(to right, #f6f5eaff, #F0EAD6);
+        background-position: 0px 0%;        
+        transition: background-position 0.6s ease-in
+
+    }
+    .barra-sup{
+        background-image: linear-gradient(to right, #f6f5eaff, #F0EAD6);
+        background-position: 100vw 0%;        
+        background-size: 10000%;
+        background-repeat: no-repeat;
+        transition: background-position 0.6s ease-in
+    }
+    .barra-sup-active{
+        background-image: linear-gradient(to right, #f6f5eaff, #F0EAD6);
+        background-position: 0px 0%;        
+        transition: background-position 0.6s ease-in
+
+    }
+    .nav-links-active{
+        transform: translateX(0%);
+        width:100%;
+        position:absolute;
+        right:0px;
+        top:20vh;
+        height:80vh;
+        background-color: #f6f5eaff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.6s ease-in;
+        z-index: 1000;
+
+    }
+    .scroll{
+        height: 100%
+    }
+    .noscroll{
+        overflow: hidden
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .boto-reserva{
+        opacity:0;
+    }
+    .burger{
+        display:block;
+        margin-right: 10%;
+    }
+    .caixa-logo{
+        flex-grow:1
+    }
+    .boto-reserva{
+        margin-right: 0px;
+    }
+    .item-llista-serveis{
+        margin-left: 20px
+    }
+    .item-llista-serveis img{
+        height: 26px
+    }
+    .item-llista-ubi{
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+    .llista-ubi{
+        width: 80vw;
+    }
+
+
+}
+
+@media screen and (max-width:800px){
+    p{
+        font-size: 16px
+    }
+    h4{
+        font-size: 32px
+    }
+    .titol-adicional{
+        font-size: 18px;
+    }
+    .item-llista-serveis{
+        margin-left: 0px;
+    }
+    .contenidor-preu-adicional{
+        margin-right: 5%;
+    }
+    .preu-adicional{
+        font-size: 22px;
+    }
+    .info-peu{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .llista-serveis{
+        flex-direction: column;
+    }
+    .mitja-llista-serveis{
+        width: inherit;
+        height: 120px;
+        margin-bottom: 19.5px;
+    }
+
+    .container-act{
+        flex-direction: column;
+        height: unset;
+
+    }
+    .caixa-act{
+        width: inherit;
+        height: unset;
+        margin-bottom: 6%;
+    }
+    .imatge-act{
+        height: 45vw;    
+    }
+}
+
+@media screen and (max-width:600px){
+    .caixa-logo{
+        flex:1 0 230px;
+    }
+
+    h1{
+    font-size: 32px; 
+    font-weight:600;
+    }
+
+    .caixa-idioma{
+    margin-right: 50px;
+    margin-top: 15px;
+    }
+    .descripcio{
+        font-size: 16px;
+    }
+    .container-preus{
+        flex-direction: column;
+        height: 340px;
+        width: 90vw;
+        max-height: unset;
+        align-self: center;
+    }
+    .caixa-preu{
+        height:100px;
+        width:inherit;
+        flex-direction: row;
+        }
+    .titol-preu{
+        margin: 0px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .text-titol-preu{
+        margin-left: 4vw;
+    }
+    .subtitol-preu{
+        text-align: left;
+        margin-top: 3px;
+        font-size: 14px;
+    }
+    .textpreu{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: auto;
+        width: 35vw;
+        justify-content: center;
+    }
+    .consultar{
+        font-size:22px;
+        margin-bottom: 0px;
+    }
+    .valor-preu{
+        font-size: 24px;
+    }
+    .mitja-llista-serveis{
+        height:150px
+    }
+    .titol-adicional{
+        font-size: 16px;
+        width: 40vw;
+    }
+    .contenidor-preu-adicional{
+        margin-right: 0px;
+    }
+    .info-peu{
+        flex-direction: column;
+        margin: 0px 50px 0 50px;
+        align-items: center;
+    }
+    .info-peu-lloc{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .info-peu-contacte{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1600px) {
+  .titol-preu {
+     font-size: 32px;
+  }
+
+}

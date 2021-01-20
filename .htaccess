@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^villamazzara.com
+RewriteRule ^(.*)$ http://www.villamazzara.com/$1 [R=301,L]
+</IfModule>

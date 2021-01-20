@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#303C42;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<title>Simple Bed</title>
+<g id="Simple_Bed">
+	<path class="st0" d="M5.5,0.5h13l0,0V22c0,0.8-0.7,1.5-1.5,1.5H7c-0.8,0-1.5-0.7-1.5-1.5V0.5L5.5,0.5z" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+	<line class="st0" x1="5.5" y1="8.5" x2="18.5" y2="8.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+	<rect x="8.5" y="2.5" class="st0" width="7" height="4" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+</g>
+
+	<metadata>
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="simple; bed; sleep; bedroom; room; hotel" dc:description="simple; bed; sleep; bedroom; room; hotel" dc:publisher="Iconscout" dc:date="2017-02-21" dc:format="image/svg+xml" dc:language="en">
+				<dc:creator>
+					<rdf:Bag>
+						<rdf:li>Alpár - Etele Méder</rdf:li>
+					</rdf:Bag>
+				</dc:creator>
+			</rdf:Description>
+		</rdf:RDF>
+    </metadata></svg>

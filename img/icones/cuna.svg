@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#303C42;stroke-linecap:round;stroke-linejoin:round;}
+</style>
+<title>Crib</title>
+<g id="Crib">
+	<g id="_Group_">
+		<circle id="_Path_" class="st0" cx="1.5" cy="4.5" r="1" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<line id="_Path_2" class="st0" x1="1.5" y1="5.5" x2="1.5" y2="23.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<circle id="_Path_3" class="st0" cx="22.5" cy="4.5" r="1" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<line id="_Path_4" class="st0" x1="22.5" y1="5.5" x2="22.5" y2="23.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<rect x="1.5" y="19.5" class="st0" width="21" height="3" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<line id="_Path_5" class="st0" x1="1.5" y1="9.5" x2="22.5" y2="9.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<line id="_Path_6" class="st0" x1="4.5" y1="9.5" x2="4.5" y2="19.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<line id="_Path_7" class="st0" x1="7.5" y1="9.5" x2="7.5" y2="19.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<line id="_Path_8" class="st0" x1="10.5" y1="9.5" x2="10.5" y2="19.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<line id="_Path_9" class="st0" x1="13.5" y1="9.5" x2="13.5" y2="19.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<line id="_Path_10" class="st0" x1="16.5" y1="9.5" x2="16.5" y2="19.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<line id="_Path_11" class="st0" x1="19.5" y1="9.5" x2="19.5" y2="19.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<line id="_Path_12" class="st0" x1="12" y1="0.5" x2="12" y2="3" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<circle id="_Path_13" class="st0" cx="12" cy="4" r="1" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<polygon id="_Path_14" class="st0" points="8.5,4 7,6.5 10,6.5   " style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<rect x="14.5" y="4.5" class="st0" width="2" height="2" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+		<path id="_Path_15" class="st0" d="M8.5,4c0-1.9,1.6-3.5,3.5-3.5s3.5,1.6,3.5,3.5v0.5" style="fill: none; stroke: #303C42; stroke-linecap: round; stroke-linejoin: round;"/>
+	</g>
+</g>
+
+	<metadata>
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="baby; children; child; crib; bed" dc:description="baby; children; child; crib; bed" dc:publisher="Iconscout" dc:date="2017-02-21" dc:format="image/svg+xml" dc:language="en">
+				<dc:creator>
+					<rdf:Bag>
+						<rdf:li>Alpár - Etele Méder</rdf:li>
+					</rdf:Bag>
+				</dc:creator>
+			</rdf:Description>
+		</rdf:RDF>
+    </metadata></svg>

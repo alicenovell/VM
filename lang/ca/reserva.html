@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" id="viewport-meta" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />  
+    <title>Villa Mazzara</title>
+
+    <meta name="description" content="Villa Mazzara, magnífica casa de 15 places per turisme rural en el Maresme (Barcelona)">
+    <meta name="keywords" content="casa, rural, casa rural, villa, mazzara, villa mazzara, maresme, montnegre, corredor, lloger, vacances, barcelona, turisme">      
+      
+    <link href="../../../css/estils_alice.css" rel="stylesheet" type="text/css">
+    
+    
+    <style>
+      body {
+          width: 100%;
+          height: 100%;
+          background-color: #f6f5eaff;
+          min-height: 100vh;
+          position: relative;
+              padding-bottom:250px
+              }
+     </style>
+    
+</head>
+<body>
+  
+<header class="header">
+        <nav class="barra-info barra-sup">
+            
+            <div class="caixa-idioma">
+                
+                <div class="boto-amb-icona">
+                    <img src="../../../img/icones/internet.svg" alt="icona" height="20px">
+                    <button class="boto-idioma">    
+                        <a href="#" class="idioma">Idioma</a>
+                    </button>
+                    <img src="../../../img/icones/TriangleArrow.svg" alt="icona" height="9px">
+
+                </div>
+                
+                <div class="caixa-opcions-idioma">
+                    <ul class="idioma-links">
+                        <li><a href="#">Català</a></li>
+                        <li><a href="#">Español</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">Italiano</a></li>
+                        <li><a href="#">Fransua</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            
+        </nav>
+      <nav class="nav">
+            <div class="caixa-logo">
+              <a href="../../../index.html">
+                <h1>Villa Mazzara</h1>
+                </a>
+            </div>
+
+          <ul class="nav-links">
+                <li><a href="casa.html">La casa</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="activitats.html">Activitats</a></li>
+                <li><a href="preus.html">Preus</a></li>
+                <li><a href="ubicacio.html">Ubicació</a></li>
+                <li><a href="contacte.html">Contacte</a></li>
+                <button class="boto-reserva">
+                    <a href="reserva.html">RESERVA</a>
+                </button>
+            </ul>
+
+            <ul class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </ul>
+
+      </nav>
+
+    </header>
+
+ 
+<main>
+    <div class="pagina">
+        <h3 class="titol-pagina">Reserva</h3>
+        
+        <p class="intro">Utilitzi el seguent formulari per realitzar la seva petició de reserva. <br>En breus ens posarem en contacte amb vostè. <br>Moltes gràcies!</p>
+        <div class="contact-form">
+            <form id="contact-form" method="post" action="../../../php/contacte.php">
+                <input name="name" type="text" class="form-control" placeholder="Nom" required>
+                <br>
+                <input name="tel" type="tel" class="form-control" placeholder="Telèfon" required>
+                <br>
+                <input name="email" type="email" class="form-control" placeholder="Email" required>
+                <br>
+                <div class="dates">
+                    <div class="data">
+                        <p>Entrada</p>
+                        <input type="date" id="entrada" class="form-control" name="entrada" required>
+                    </div>
+                    <div class="data">
+                        <p>Sortida</p>
+                        <input type="date" id="sortida" class="form-control" name="sortida" required>
+                    </div>
+                </div>
+                <textarea name="message" class="form-control" placeholder="Missatge" cols="30" rows="5"></textarea>
+                <br>
+                <div class="caixa-botons-form">
+                <input type="submit" class="form-control submit" value="ENVIAR">
+                <input type="reset" class="form-control submit" value="BORRAR">
+                </div>
+                
+                <input type="hidden" name="desti" value="anovellmazzara@gmail.com">
+                <input type="hidden" name="ok" value="../lang/ca/contacte_ok.html">
+                <input type="hidden" name="ko" value="../lang/ca/contacte_ok.html">
+            
+            </form>
+        </div>
+    </div>
+    </main>
+      
+
+<footer class="footer">
+    <div class="info-peu">
+        <div class="info-peu-contacte">
+            <p>info@villamazzara.com</p>
+            <p>+34 619 78 58 03</p>
+        </div>
+        <div class="info-peu-lloc">
+            <p>Ctra. Dosrius-Canyamars<br>08329<br>Barcelona</p>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>2020 Villa Mazzara SL</p>
+    </div>
+</footer>
+    
+    
+    <script src="../../../js/animacions.js"></script>  
+
+</body>
+
+</html>
+
+        
